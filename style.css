@@ -3,6 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: rgba(275, 275, 205);
+}
 
 .container {
   width: 500px;
@@ -11,7 +14,9 @@
   background-size: cover;
   background-position: center;
   position: relative;
-  /* border: 2px solid red; */
+  margin: 0 auto;
+  margin-top: 10rem;
+  overflow: hidden;
 }
 h2 {
   display: inline-flex;
@@ -35,24 +40,19 @@ p {
   margin-top: 1rem;
   transform: translate(calc(-100% - 156px));
 }
-.slides{
-    margin-left: 95px;
+.slides {
+  margin-left: 95px;
 }
 .div1 {
-    transition: 0.3s 0.1s;
+  transition: 0.3s 0.1s;
 }
 .div2 {
-    transition: 0.3s 0.2s;
+  transition: 0.3s 0.2s;
 }
 .div3 {
-    transition: 0.3s 0.3s;
+  transition: 0.3s 0.3s;
 }
 
 .container:hover p {
-   
-    transform: translate(0);
+  transform: translate(0);
 }
-
-
-
-
